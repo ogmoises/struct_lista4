@@ -61,3 +61,18 @@ button {
 button:hover {
     background-color: #000000;
 }
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #5fa5fa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-link a:hover {
+    color: #000000;
+}
