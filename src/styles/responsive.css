@@ -1,0 +1,50 @@
+/* Responsividade para telas menores que 907px */
+@media screen and (max-width: 907px) {
+    .main-page-div, .left-div, .right-div, .p-main, .p-sub, .xstock, .image {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .img-landing {
+        width: 90vw;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-page-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefitsss {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefitsss div {
+        width: 80%;
+        margin: 20px 0;
+    }
+}
+
+/* Responsividade para telas menores que 500px */
+@media screen and (max-width: 500px) {
+    .button-action {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    .main-page-div {
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin-right: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}

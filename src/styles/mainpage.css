@@ -1,0 +1,94 @@
+.main-page-div{
+    vertical-align: top;
+    margin: 4% 4% 4% 4%;
+}
+.left-div{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    width: 45%;
+    margin: auto;
+}
+.xstock{
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-weight: 450;
+    display: block;
+    margin-top: 8%;
+    margin-right: 10px;
+}
+.p-main{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 45px;
+    font-weight: 350;
+    width: 95%;
+    line-height: 65px;
+    letter-spacing: -0.5px;
+}
+.p-sub{
+    display: block;
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+    margin-top: 10%;
+    margin-right: 40px;
+}
+.right-div{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: auto;
+}
+.button{
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+.button a{
+    text-decoration: none;
+}
+.button-action{
+    font-family: Poppins;
+    background-color: rgb(51,206,171);
+    border: 0;
+    color: white;
+    border-radius: 100px;
+    text-align: center;
+    padding:15px;
+    width: 50%;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+.button-action a{
+    color: white;
+    text-decoration: none;
+}
+.button-action:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button-action:active{
+    opacity: 0.4;
+    transition: 0.1s;
+
+}
+.img-landing {
+    width: 48vw;
+    display: flex;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

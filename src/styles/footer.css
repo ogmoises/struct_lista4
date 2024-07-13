@@ -1,0 +1,36 @@
+footer {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    margin: 1rem 3rem 1 rem 3 rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+footer > div {
+    display: flex;
+    margin: auto;
+}
+
+.iconsredes {
+    display: flex;
+
+}
+
+.iconsredes > li{
+    margin: 1rem;
+    text-align: center;
+}
+
+.iconinsta {
+    width: 2.5rem;
+}
+
+.iconface {
+    width: 2.5rem;
+}
+
+.iconyou {
+    width: 2.5rem;
+}

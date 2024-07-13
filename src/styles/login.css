@@ -13,7 +13,7 @@ body {
     background-color: #f5f5f5;
 }
 
-.login-container, .signup-container {
+.login-container {
     width: 300px;
     padding: 20px;
     background-color: white;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #333333;
 }
 
 .signup-link {
@@ -74,5 +74,23 @@ button:hover {
 }
 
 .signup-link a:hover {
+    color: #000000;
+}
+
+.home-link {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.home-link a {
+    color: #5fa5fa;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.home-link a:hover {
     color: #000000;
 }

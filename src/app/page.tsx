@@ -1,22 +1,16 @@
 "use client";
 import React, {useState} from 'react';
-import Login from "./components/login";
-import Cadastro from "./components/cadastro";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import MainPage from "./components/MainPage";
 
 const Page: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<'login' | 'cadastro'>('login');
-
-  const renderPage = () => {
-      if (currentPage === 'login') {
-          return <Login goToCadastro={() => setCurrentPage('cadastro')} />;
-      } else if (currentPage === 'cadastro') {
-          return <Cadastro goToLogin={() => setCurrentPage('login')} />;
-      }
-  };
 
   return (
       <div>
-          {renderPage()}
+        <Header />
+        <MainPage/>
+        <Footer/>
       </div>
   );
 }
