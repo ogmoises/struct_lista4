@@ -1,5 +1,6 @@
 "use client";
 
+import { signIn } from 'next-auth/react';
 import React from 'react';
 import '~/styles/login.css';
 
@@ -21,7 +22,7 @@ const Login: React.FC<LoginProps> = ({ goToCadastro }) => {
                         <label htmlFor="password">Senha</label>
                         <input type="password" id="password" name="password" required />
                     </div>
-                    <button type="submit">Entrar</button>
+                    <button type="button" onClick={() => signIn('google')}>Entrar com Google</button>
                 </form>
                 <div className="signup-link">
                     <p>Não tem uma conta? <a href="/cadastro" onClick={goToCadastro}>Cadastre-se</a></p>
